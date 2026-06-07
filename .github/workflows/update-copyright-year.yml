@@ -2,8 +2,12 @@ name: Update Copyright Year
 
 on:
   schedule:
-    - cron: '0 0 1 1 *' # Запускается 1 января каждого года в 00:00 по UTC
-  workflow_dispatch: # Для ручного запуска и тестирования
+    - cron: '0 0 1 1 *' # 1 января в 00:00 UTC
+  workflow_dispatch: # Ручной запуск
+
+# 🔑 Явно даем права на запись в репозиторий (критично для git push)
+permissions:
+  contents: write
 
 jobs:
   update-year:
@@ -11,29 +15,32 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Update year in README and LICENSE files
         run: |
           CURRENT_YEAR=$(date +%Y)
-          # Находим README.md и все вариации LICENSE, заменяем [202X] на текущий год
-          find . -type f \( -name "README.md" -o -name "LICENSE" -o -name "LICENSE.md" -o -name "LICENSE.txt" \) -exec sed -i "s/\[[0-9]\{4\}\]/[$CURRENT_YEAR]/g" {} +
+          # Ищем файлы во всех папках, исключая служебные директории
+          find . -not -path '*/.git/*' -not -path '*/node_modules/*' -type f \
+            \( -name "README.md" -o -name "LICENSE" -o -name "LICENSE.md" -o -name "LICENSE.txt" \) \
+            -exec sed -i "s/\[[0-9]\{4\}\]/[$CURRENT_YEAR]/g" {} +
 
       - name: Commit and push if changed
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           
-          # Добавляем в индекс только те файлы из нашего списка, которые были изменены
-          find . -type f \( -name "README.md" -o -name "LICENSE" -o -name "LICENSE.md" -o -name "LICENSE.txt" \) -exec git add {} +
+          # -r (--no-run-if-empty) предотвращает ошибку, если подходящих файлов нет
+          find . -not -path '*/.git/*' -not -path '*/node_modules/*' -type f \
+            \( -name "README.md" -o -name "LICENSE" -o -name "LICENSE.md" -o -name "LICENSE.txt" \) \
+            -print0 | xargs -0 -r git add
           
-          # Проверяем, есть ли реальные изменения, чтобы не создавать пустой коммит
+          # Проверяем, есть ли изменения в индексе
           if ! git diff --staged --quiet; then
             CURRENT_YEAR=$(date +%Y)
             git commit -m "chore: автоматическое обновление года на $CURRENT_YEAR"
-            git push
-            echo "✅ Год успешно обновлен в README и LICENSE файлах."
+            # Явно пушим в текущую ветку
+            git push origin ${{ github.ref_name }}
+            echo "✅ Год успешно обновлен."
           else
             echo "ℹ️ Изменений не найдено, год уже актуален."
           fi
