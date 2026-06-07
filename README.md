@@ -8,7 +8,12 @@ Blood pressure measurement Diary
 ---
 
 ### 🇬🇧 English
-A brief 2-3 sentence description of the project. 
+
+
+This software is designed and operated in full compliance with the European Union’s 
+General Data Protection Regulation (GDPR) and the United States’ Health Insurance 
+Portability and Accountability Act (HIPAA)
+
 👉 [Read full documentation in English](docs/en/README.en.md)
 
 ---
@@ -16,7 +21,9 @@ A brief 2-3 sentence description of the project.
 ### 🇷🇺 Русский
 Дневник для ведения измерений артериального давления
 
-Краткое описание проекта на 2-3 предложения.
+Данная программа разработана и эксплуатируется в полном соответствии с требованиями ФЗ-152.
+<a href="docs/ru/privacy-ru.html">Полная версия Политик</a>
+
 👉 [Читать полную документацию на русском](docs/ru/README.ru.md)
 
 # 
