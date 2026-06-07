@@ -16,7 +16,13 @@ Portability and Accountability Act (HIPAA)
 <a href="docs/en/privacy-en.html">Read the full text of Privacy Policies</a>
 
 👉 [Read full documentation in English](docs/en/README.en.md)
+---
 
+<h3>Support the Project</h3>
+<p>You can send a donation directly to my wallets:</p>
+
+[🟠 Donate via Bitcoin (BTC)](bitcoin:ВАШ_BTC_АДРЕС)
+[🔷 Donate via Ethereum (ETH)](ethereum:ВАШ_ETH_АДРЕС)
 #
 ---
 
@@ -27,5 +33,11 @@ Portability and Accountability Act (HIPAA)
 <a href="docs/ru/privacy-ru.html">Полная версия Политик</a>
 
 👉 [Читать полную документацию на русском](docs/ru/README.ru.md)
+---
 
+<h3>Поддержать проект</h3>
+<p>Вы можете отправить донат напрямую на мои кошельки:</p>
+
+[🟠 Поддержать в Bitcoin (BTC)](bitcoin:ВАШ_BTC_АДРЕС)
+[🔷 Поддержать в Ethereum (ETH)](ethereum:ВАШ_ETH_АДРЕС)
 # 
