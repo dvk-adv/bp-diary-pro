@@ -34,6 +34,6 @@ Portability and Accountability Act (HIPAA)
 <h3>Поддержать проект</h3>
 <p>Вы можете отправить донат напрямую на мои кошельки:</p>
 
-[🟠 Bitcoin (BTC)](bitcoin:ВАШ_BTC_АДРЕС)
-[🔷 Ethereum (ETH)](ethereum:ВАШ_ETH_АДРЕС)
+[🟠 Bitcoin (BTC)](bitcoin:bc1qemx6w40x5rcdnnyy2ejt7m38txdzy4uccfx6kc)
+[🔷 Ethereum (ETH)](ethereum:0x98F0265f4D96daB1Df887a3B5e8361777300aB4a)
 # 
