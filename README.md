@@ -3,7 +3,7 @@
 ---
 
 <p align="center">
-  🇬🇧 <a href="docs/en/README.en.md">English</a> | 🇷🇺 <a href="docs/ru/README.ru.md">Русский</a>
+  🇬🇧 <a href="docs/en/README.en.md">English Readme</a> | 🇷🇺 <a href="docs/ru/README.ru.md">Русский Readme</a>
 </p>
 
 ---
