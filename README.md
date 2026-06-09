@@ -2,12 +2,6 @@
 ![iOS](https://img.shields.io/badge/iOS-000000?style=flat&logo=apple&logoColor=white) ![Android](https://img.shields.io/badge/Android-3DDC84?style=flat&logo=android&logoColor=white) ![Windows](https://img.shields.io/badge/Windows-0078D6?style=flat&logo=windows&logoColor=white) ![macOS](https://img.shields.io/badge/macOS-000000?style=flat&logo=apple&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
 ---
 
-<p align="center">
-  🇬🇧 <a href="docs/en/README.en.md">English Readme</a> | 🇷🇺 <a href="docs/ru/README.ru.md">Русский Readme</a>
-</p>
-
----
-
 ### 🇬🇧 English
 Blood pressure measurement Diary
 
@@ -17,7 +11,6 @@ Portability and Accountability Act (HIPAA)
 <a href="docs/en/privacy-en.html">Read the full text of Privacy Policies</a>
 
 👉 [Read full documentation in English](docs/en/README.en.md)
-
 ---
 
 ### 🇷🇺 Русский
@@ -27,8 +20,8 @@ Portability and Accountability Act (HIPAA)
 <a href="docs/ru/privacy-ru.html">Полная версия Политик</a>
 
 👉 [Читать полную документацию на русском](docs/ru/README.ru.md)
-
 ---
+
 <h3>Support the Project</h3>
 <p>You can send a donation directly to my wallets:</p>
 <ul>
