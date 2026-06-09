@@ -10,7 +10,7 @@ General Data Protection Regulation (GDPR) and the United States’ Health Insura
 Portability and Accountability Act (HIPAA)
 <a href="docs/en/privacy-en.html">Read the full text of Privacy Policies</a>
 
-👉 [Read full documentation in English](docs/en/README.en.md)
+👉 [Read full documentation in English](docs/en/README.md)
 ---
 
 ### 🇷🇺 Русский
