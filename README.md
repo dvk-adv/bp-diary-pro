@@ -25,7 +25,7 @@ Portability and Accountability Act (HIPAA)
 Данная программа разработана и эксплуатируется в полном соответствии с требованиями ФЗ-152.
 <a href="docs/ru/privacy-ru.html">Полная версия Политик</a>
 
-👉 [Читать полную документацию на русском](docs/ru/README.ru.md)
+👉 [Читать полную документацию на русском](docs/ru/README.md)
 ---
 
 <h3>Support the Project</h3>
