@@ -30,7 +30,8 @@ Portability and Accountability Act (HIPAA)
 
 ---
 <h3>Support the Project</h3>
-<p>You can send a donation directly my wallet:</p>
-
-[🟠 Bitcoin (BTC)](bitcoin:bc1qemx6w40x5rcdnnyy2ejt7m38txdzy4uccfx6kc)
-[🔷 Ethereum (ETH)](ethereum:0x98F0265f4D96daB1Df887a3B5e8361777300aB4a)
+<p>You can send a donation directly to my wallets:</p>
+<ul>
+    <li><strong>Bitcoin (BTC):</strong> <a href="bitcoin:bc1qemx6w40x5rcdnnyy2ejt7m38txdzy4uccfx6kc">Click to donate BTC</a></li>
+    <li><strong>Ethereum (ETH):</strong> <a href="ethereum:0x98F0265f4D96daB1Df887a3B5e8361777300aB4a">Click to donate ETH</a></li>
+</ul>
